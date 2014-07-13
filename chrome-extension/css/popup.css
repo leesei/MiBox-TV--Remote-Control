@@ -1,0 +1,129 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+body {
+	max-width:250px;
+	min-width:250px;
+	font-family:"Helvetica Neue",Helvetica,Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+	margin:0px;
+	padding:0;
+	position:relative;
+	height:auto !important;
+	height:100%;
+}
+ul>li>img {
+	float:left;
+	position:relative;
+	width:40px;
+	height:40px;
+	margin:10px;
+}
+ul>li:first-child {
+	border-width:0;
+}
+ul>li {
+	height:60px;
+	border-top:1px solid #e3e3e3;
+	line-height:100%;
+}
+@-webkit-keyframes flipInX {
+	0% {
+	-webkit-transform:perspective(400px) rotateX(90deg);
+	opacity:0
+}
+40% {
+	-webkit-transform:perspective(400px) rotateX(-10deg)
+}
+70% {
+	-webkit-transform:perspective(400px) rotateX(10deg)
+}
+100% {
+	-webkit-transform:perspective(400px) rotateX(0deg);
+	opacity:1
+}
+}@-moz-keyframes flipInX {
+	0% {
+	-moz-transform:perspective(400px) rotateX(90deg);
+	opacity:0
+}
+40% {
+	-moz-transform:perspective(400px) rotateX(-10deg)
+}
+70% {
+	-moz-transform:perspective(400px) rotateX(10deg)
+}
+100% {
+	-moz-transform:perspective(400px) rotateX(0deg);
+	opacity:1
+}
+}ul>li:hover {
+	background-color:#333;
+	color:#fff;
+	-webkit-animation:pulse 1s .2s ease both;
+	-moz-animation:pulse 1s .2s ease both;
+}
+@-webkit-keyframes pulse {
+	0% {
+	-webkit-transform:scale(1)
+}
+50% {
+	-webkit-transform:scale(1.1)
+}
+100% {
+	-webkit-transform:scale(1)
+}
+}@-moz-keyframes pulse {
+	0% {
+	-moz-transform:scale(1)
+}
+50% {
+	-moz-transform:scale(1.1)
+}
+100% {
+	-moz-transform:scale(1)
+}
+}ul>li:active {
+	background-color:#333;
+	color:#fff;
+}
+Inherited from ul#current_chat_list.list.list_white
+ol,ul {
+	list-style:none;
+}
+.dn {
+	line-height:23px;
+	height:22px;
+	overflow:hidden;
+	padding:6px 0 0 5px;
+}
+.dn span {
+	color:#aaa;
+	line-height:17px;
+	font-size:12px;
+}
+.dip {
+	overflow:hidden;
+	font-size:12px;
+	color:#aaa;
+	line-height:28px;
+	padding-left:5px;
+	padding-top:5px 10px 0 5px;
+	font-size:12px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.stop {
+	background-color:#ddd;
+	pointer-events:none;
+	cursor:not-allowed;
+	filter:alpha(opacity=65);
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	opacity:.65;
+}

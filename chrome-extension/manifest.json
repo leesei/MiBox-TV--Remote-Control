@@ -1,0 +1,30 @@
+{
+	"name": "MiLink",
+	"short_name": "ML",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "MiLink",
+	"icons": {
+		"48": "img/48.png"
+	},
+	"page_action": {
+		"default_icon": "img/19_p.png",
+		"default_title": "MiLink",
+		"default_popup": "popup.html"
+	},
+	"options_page": "console.html",   
+	"background": {
+		"page": "background.html"
+	},
+	"permissions": [
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"contextMenus",
+		"http://*/",
+		"http://*/*",
+		"https://*/*",
+		"unlimitedStorage",
+		"notifications"
+	]
+}
